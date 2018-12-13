@@ -7,7 +7,7 @@
     <asp:UpdatePanel ID="UpdatePanel1" runat="server" >
 <ContentTemplate>
 
- <ajaxtoolkit:toolkitscriptmanager ID="ToolkitScriptManager1" runat="server" EnableScriptGlobalization="true" ></ajaxtoolkit:toolkitscriptmanager>
+ <asp:ScriptManager ID="ToolkitScriptManager1" runat="server" EnableScriptGlobalization="true" ></asp:ScriptManager>
 
  <table width="1008px">
   <tr>
